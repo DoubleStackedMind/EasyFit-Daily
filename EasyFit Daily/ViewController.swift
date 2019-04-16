@@ -17,6 +17,9 @@ class ViewController: UIViewController {
        
     }
 
+    @IBAction func SignIn(_ sender: Any) {
+        performSegue(withIdentifier: "GoToHome", sender: nil)
+}
 
 }
 
