@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2644A44A7ED0D58B7058FC70 /* Pods_EasyFit_DailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */; };
+		546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */; };
+		546E16C42268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */; };
+		546E16C52268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */; };
 		54E34E9722666EB2006CAD54 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E34E9622666EB2006CAD54 /* HomeController.swift */; };
 		9186E9619D95B16C5D2C38D8 /* Pods_EasyFit_DailyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886376FCE8A79698F424B183 /* Pods_EasyFit_DailyTests.framework */; };
 		C8B150D030E82BBC0E58C3FB /* Pods_EasyFit_Daily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		076BE6C27867EBA791797CB3 /* Pods-EasyFit Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.release.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.release.xcconfig"; sourceTree = "<group>"; };
 		4B51663199B5AC8EBDE8046A /* Pods-EasyFit DailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		54E34E9622666EB2006CAD54 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_DailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_Daily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +109,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		546E16C62268FF19009C426B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */,
+				546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */,
+				546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		9872DF170D77C2A9887A8D16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +129,6 @@
 				FEB6B078C55F7F1251F345C5 /* Pods-EasyFit DailyUITests.debug.xcconfig */,
 				E5F060C26814771A043E5540 /* Pods-EasyFit DailyUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,7 @@
 				D469E4CA2257A6DA002C49CA /* EasyFit DailyUITests */,
 				D469E4A62257A6D9002C49CA /* Products */,
 				9872DF170D77C2A9887A8D16 /* Pods */,
+				546E16C62268FF19009C426B /* New Group */,
 				05B8536D51D5E12FB9FDAE90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -283,6 +299,9 @@
 				D469E4B62257A6DA002C49CA /* LaunchScreen.storyboard in Resources */,
 				D469E4B32257A6DA002C49CA /* Assets.xcassets in Resources */,
 				D469E4AE2257A6D9002C49CA /* Main.storyboard in Resources */,
+				546E16C52268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+				546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				546E16C42268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
