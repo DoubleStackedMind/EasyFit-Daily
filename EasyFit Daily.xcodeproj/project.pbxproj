@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2644A44A7ED0D58B7058FC70 /* Pods_EasyFit_DailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */; };
+		5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1022269DEC500520456 /* SignUpViewController.swift */; };
+		5447A1072269E6B800520456 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1062269E6B800520456 /* PageViewController.swift */; };
 		546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */; };
 		546E16C42268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */; };
 		546E16C52268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		076BE6C27867EBA791797CB3 /* Pods-EasyFit Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.release.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.release.xcconfig"; sourceTree = "<group>"; };
 		4B51663199B5AC8EBDE8046A /* Pods-EasyFit DailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5447A1022269DEC500520456 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5447A1062269E6B800520456 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
 		546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				D469E4B72257A6DA002C49CA /* Info.plist */,
 				D469E4AF2257A6D9002C49CA /* EasyFit_Daily.xcdatamodeld */,
 				54E34E9622666EB2006CAD54 /* HomeController.swift */,
+				5447A1022269DEC500520456 /* SignUpViewController.swift */,
+				5447A1062269E6B800520456 /* PageViewController.swift */,
 			);
 			path = "EasyFit Daily";
 			sourceTree = "<group>";
@@ -415,7 +421,9 @@
 				54E34E9722666EB2006CAD54 /* HomeController.swift in Sources */,
 				D469E4AB2257A6D9002C49CA /* ViewController.swift in Sources */,
 				D469E4A92257A6D9002C49CA /* AppDelegate.swift in Sources */,
+				5447A1072269E6B800520456 /* PageViewController.swift in Sources */,
 				D469E4B12257A6D9002C49CA /* EasyFit_Daily.xcdatamodeld in Sources */,
+				5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
