@@ -23,7 +23,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         // User is on the first view controller and swiped left to loop to
         // the last view controller.
         guard previousIndex >= 0 else {
-            return orderedViewControllers.last
+            //return orderedViewControllers.last
             // commment the line below, remove the line above if you don't want the page control to loop.
              return nil
         }
@@ -65,8 +65,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     
     lazy var orderedViewControllers: [UIViewController] = {
         return [self.newVc(viewController: "1"),
-                self.newVc(viewController: "2"),
-                self.newVc(viewController: "3")]
+                self.newVc(viewController: "2")]
     }()
 
     func configurePageControl() {
@@ -75,9 +74,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         self.pageControl.numberOfPages = orderedViewControllers.count
         self.pageControl.currentPage = 0
         self.pageControl.tintColor = UIColor.black
-        self.pageControl.pageIndicatorTintColor = UIColor.white
+        self.pageControl.pageIndicatorTintColor = UIColor.gray
         
-        self.pageControl.currentPageIndicatorTintColor = UIColor.init
+        self.pageControl.currentPageIndicatorTintColor = UIColor.init(red:0.98, green:0.20, blue:0.33, alpha:1.0)
         self.view.addSubview(pageControl)
     }
     
