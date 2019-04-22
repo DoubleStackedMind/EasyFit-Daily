@@ -5,6 +5,9 @@ target 'EasyFit Daily' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 pod 'RAMAnimatedTabBarController'
+pod 'expanding-collection'
+pod 'Navigation-stack'
+pod 'PreviewTransition'
   # Pods for EasyFit Daily
 
   target 'EasyFit DailyTests' do

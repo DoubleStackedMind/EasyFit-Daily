@@ -14,6 +14,9 @@
 		546E16C42268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */; };
 		546E16C52268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */; };
 		54E34E9722666EB2006CAD54 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E34E9622666EB2006CAD54 /* HomeController.swift */; };
+		54ED7B41226E649E00CEEE0B /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED7B40226E649E00CEEE0B /* NavigationViewController.swift */; };
+		54ED7B43226E672400CEEE0B /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED7B42226E672400CEEE0B /* HomeTableViewController.swift */; };
+		54ED7B46226E6D5500CEEE0B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED7B45226E6D5500CEEE0B /* DetailViewController.swift */; };
 		9186E9619D95B16C5D2C38D8 /* Pods_EasyFit_DailyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886376FCE8A79698F424B183 /* Pods_EasyFit_DailyTests.framework */; };
 		C8B150D030E82BBC0E58C3FB /* Pods_EasyFit_Daily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */; };
 		D469E4A92257A6D9002C49CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469E4A82257A6D9002C49CA /* AppDelegate.swift */; };
@@ -52,6 +55,9 @@
 		546E16C12268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
 		546E16C22268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		54E34E9622666EB2006CAD54 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		54ED7B40226E649E00CEEE0B /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		54ED7B42226E672400CEEE0B /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		54ED7B45226E6D5500CEEE0B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_DailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_Daily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886376FCE8A79698F424B183 /* Pods_EasyFit_DailyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_DailyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +178,9 @@
 				54E34E9622666EB2006CAD54 /* HomeController.swift */,
 				5447A1022269DEC500520456 /* SignUpViewController.swift */,
 				5447A1062269E6B800520456 /* PageViewController.swift */,
+				54ED7B40226E649E00CEEE0B /* NavigationViewController.swift */,
+				54ED7B42226E672400CEEE0B /* HomeTableViewController.swift */,
+				54ED7B45226E6D5500CEEE0B /* DetailViewController.swift */,
 			);
 			path = "EasyFit Daily";
 			sourceTree = "<group>";
@@ -358,9 +367,22 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Navigation-stack/Navigation_stack.framework",
+				"${BUILT_PRODUCTS_DIR}/PreviewTransition/PreviewTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_stack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PreviewTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -418,11 +440,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54ED7B46226E6D5500CEEE0B /* DetailViewController.swift in Sources */,
+				54ED7B43226E672400CEEE0B /* HomeTableViewController.swift in Sources */,
 				54E34E9722666EB2006CAD54 /* HomeController.swift in Sources */,
 				D469E4AB2257A6D9002C49CA /* ViewController.swift in Sources */,
 				D469E4A92257A6D9002C49CA /* AppDelegate.swift in Sources */,
 				5447A1072269E6B800520456 /* PageViewController.swift in Sources */,
 				D469E4B12257A6D9002C49CA /* EasyFit_Daily.xcdatamodeld in Sources */,
+				54ED7B41226E649E00CEEE0B /* NavigationViewController.swift in Sources */,
 				5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

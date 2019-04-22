@@ -1,16 +1,28 @@
 PODS:
+  - expanding-collection (3.1.0)
+  - Navigation-stack (3.1.0)
+  - PreviewTransition (4.1.0)
   - RAMAnimatedTabBarController (4.0.1)
 
 DEPENDENCIES:
+  - expanding-collection
+  - Navigation-stack
+  - PreviewTransition
   - RAMAnimatedTabBarController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - expanding-collection
+    - Navigation-stack
+    - PreviewTransition
     - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
+  expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
+  Navigation-stack: 8fa9f033c2c4fa8aebbbefcd5e204891f68a7bc9
+  PreviewTransition: b030422e53d050b0bb05ec05a0629b2aa6c15269
   RAMAnimatedTabBarController: 677d6f7ec7e88b1089486f4db49b0a5067e8ad1c
 
-PODFILE CHECKSUM: 7228426d5128c0b14630855780072f66967e3273
+PODFILE CHECKSUM: 59dfa127c4f9ff2d78f78d4448b0ed3a9c2425e6
 
-COCOAPODS: 1.7.0.beta.1
+COCOAPODS: 1.6.1
