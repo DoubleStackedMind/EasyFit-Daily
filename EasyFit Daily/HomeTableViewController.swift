@@ -88,10 +88,3 @@ extension StoryboardIdentifiable where Self: UIViewController {
         return String(describing: self)
     }
 }
-
-extension UIViewController {
-    
-    @property(nullable, nonatomic, readonly, strong) UIStoryboard *storyboard NS_AVAILABLE_IOS(5_0);
-}
-
-// MARK: identifiable
