@@ -25,6 +25,17 @@
 		D469E4B62257A6DA002C49CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D469E4B42257A6DA002C49CA /* LaunchScreen.storyboard */; };
 		D469E4C12257A6DA002C49CA /* EasyFit_DailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469E4C02257A6DA002C49CA /* EasyFit_DailyTests.swift */; };
 		D469E4CC2257A6DA002C49CA /* EasyFit_DailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469E4CB2257A6DA002C49CA /* EasyFit_DailyUITests.swift */; };
+		D47BA9A02271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9902271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		D47BA9A12271454200AE954F /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9912271454200AE954F /* RAMAnimatedTabBarController.swift */; };
+		D47BA9A22271454200AE954F /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9932271454200AE954F /* RAMBadge.swift */; };
+		D47BA9A32271454200AE954F /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9942271454200AE954F /* RAMItemAnimationProtocol.swift */; };
+		D47BA9A42271454200AE954F /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9972271454200AE954F /* RAMFumeAnimation.swift */; };
+		D47BA9A52271454200AE954F /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9992271454200AE954F /* RAMFrameItemAnimation.swift */; };
+		D47BA9A62271454200AE954F /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA99B2271454200AE954F /* RAMTransitionItemAnimations.swift */; };
+		D47BA9A72271454200AE954F /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA99D2271454200AE954F /* RAMRotationAnimation.swift */; };
+		D47BA9A82271454200AE954F /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA99F2271454200AE954F /* RAMBounceAnimation.swift */; };
+		D47BA9AC2271456C00AE954F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47BA9AB2271456B00AE954F /* Info.plist */; };
+		D4EFE9EC2271109500EC579C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFE9EB2271109500EC579C /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +83,18 @@
 		D469E4C72257A6DA002C49CA /* EasyFit DailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyFit DailyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D469E4CB2257A6DA002C49CA /* EasyFit_DailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyFit_DailyUITests.swift; sourceTree = "<group>"; };
 		D469E4CD2257A6DA002C49CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47BA9902271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		D47BA9912271454200AE954F /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		D47BA9932271454200AE954F /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		D47BA9942271454200AE954F /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		D47BA9972271454200AE954F /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		D47BA9992271454200AE954F /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		D47BA99B2271454200AE954F /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		D47BA99D2271454200AE954F /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		D47BA99F2271454200AE954F /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		D47BA9AA2271456B00AE954F /* TabBarLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarLib.h; sourceTree = "<group>"; };
+		D47BA9AB2271456B00AE954F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EFE9EB2271109500EC579C /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E5F060C26814771A043E5540 /* Pods-EasyFit DailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyUITests/Pods-EasyFit DailyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FAC19E14077D76DA16056B8C /* Pods-EasyFit DailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FEB6B078C55F7F1251F345C5 /* Pods-EasyFit DailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyUITests/Pods-EasyFit DailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +187,8 @@
 		D469E4A72257A6D9002C49CA /* EasyFit Daily */ = {
 			isa = PBXGroup;
 			children = (
+				D47BA9A92271456B00AE954F /* TabBarLib */,
+				D47BA98E2271454200AE954F /* RAMAnimatedTabBarController */,
 				D469E4A82257A6D9002C49CA /* AppDelegate.swift */,
 				D469E4AA2257A6D9002C49CA /* ViewController.swift */,
 				D469E4AC2257A6D9002C49CA /* Main.storyboard */,
@@ -175,6 +200,7 @@
 				5447A1062269E6B800520456 /* PageViewController.swift */,
 				54F9F010226F82F60031E544 /* HomeViewController.swift */,
 				54F9F012226F85300031E544 /* DetailsViewController.swift */,
+				D4EFE9EB2271109500EC579C /* SignUpController.swift */,
 			);
 			path = "EasyFit Daily";
 			sourceTree = "<group>";
@@ -195,6 +221,95 @@
 				D469E4CD2257A6DA002C49CA /* Info.plist */,
 			);
 			path = "EasyFit DailyUITests";
+			sourceTree = "<group>";
+		};
+		D47BA98E2271454200AE954F /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA98F2271454200AE954F /* BottomLine */,
+				D47BA9912271454200AE954F /* RAMAnimatedTabBarController.swift */,
+				D47BA9922271454200AE954F /* RAMBadge */,
+				D47BA9942271454200AE954F /* RAMItemAnimationProtocol.swift */,
+				D47BA9952271454200AE954F /* Animations */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		D47BA98F2271454200AE954F /* BottomLine */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9902271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift */,
+			);
+			path = BottomLine;
+			sourceTree = "<group>";
+		};
+		D47BA9922271454200AE954F /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9932271454200AE954F /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		D47BA9952271454200AE954F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9962271454200AE954F /* FumeAnimation */,
+				D47BA9982271454200AE954F /* FrameAnimation */,
+				D47BA99A2271454200AE954F /* TransitionAniamtions */,
+				D47BA99C2271454200AE954F /* RotationAnimation */,
+				D47BA99E2271454200AE954F /* BounceAnimation */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D47BA9962271454200AE954F /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9972271454200AE954F /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		D47BA9982271454200AE954F /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9992271454200AE954F /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		D47BA99A2271454200AE954F /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA99B2271454200AE954F /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		D47BA99C2271454200AE954F /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA99D2271454200AE954F /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		D47BA99E2271454200AE954F /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA99F2271454200AE954F /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		D47BA9A92271456B00AE954F /* TabBarLib */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9AA2271456B00AE954F /* TabBarLib.h */,
+				D47BA9AB2271456B00AE954F /* Info.plist */,
+			);
+			path = TabBarLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +426,7 @@
 				546E16C52268FF0D009C426B /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 				546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				546E16C42268FF0D009C426B /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				D47BA9AC2271456C00AE954F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,13 +550,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47BA9A12271454200AE954F /* RAMAnimatedTabBarController.swift in Sources */,
 				D469E4AB2257A6D9002C49CA /* ViewController.swift in Sources */,
 				D469E4A92257A6D9002C49CA /* AppDelegate.swift in Sources */,
+				D47BA9A42271454200AE954F /* RAMFumeAnimation.swift in Sources */,
 				5447A1072269E6B800520456 /* PageViewController.swift in Sources */,
+				D47BA9A02271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				D4EFE9EC2271109500EC579C /* SignUpController.swift in Sources */,
+				D47BA9A32271454200AE954F /* RAMItemAnimationProtocol.swift in Sources */,
 				D469E4B12257A6D9002C49CA /* EasyFit_Daily.xcdatamodeld in Sources */,
 				54F9F013226F85300031E544 /* DetailsViewController.swift in Sources */,
 				5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */,
+				D47BA9A22271454200AE954F /* RAMBadge.swift in Sources */,
 				54F9F011226F82F60031E544 /* HomeViewController.swift in Sources */,
+				D47BA9A82271454200AE954F /* RAMBounceAnimation.swift in Sources */,
+				D47BA9A72271454200AE954F /* RAMRotationAnimation.swift in Sources */,
+				D47BA9A52271454200AE954F /* RAMFrameItemAnimation.swift in Sources */,
+				D47BA9A62271454200AE954F /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
