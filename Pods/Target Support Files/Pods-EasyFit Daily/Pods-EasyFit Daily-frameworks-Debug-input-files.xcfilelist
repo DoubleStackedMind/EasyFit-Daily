@@ -1,9 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
-${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework
-${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
-${BUILT_PRODUCTS_DIR}/Navigation-stack/Navigation_stack.framework
-${BUILT_PRODUCTS_DIR}/PreviewTransition/PreviewTransition.framework
 ${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework
-${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework

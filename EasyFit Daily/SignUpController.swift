@@ -10,34 +10,10 @@ import UIKit
 
 class SignUpController: UIViewController {
 
-    @IBOutlet weak var DOB: UITextField!
-    
-    private var DateOB: UIDatePicker?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        DateOB = UIDatePicker()
-        DateOB?.datePickerMode = .date
-        DateOB?.addTarget(self
-            , action: #selector(SignUpController.dateChanged(datePicker:))
-            , for: .valueChanged)
+
         // Do any additional setup after loading the view.
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignUpController.viewTapped(gestureRecognizer:)))
-        
-        view.addGestureRecognizer(tapGesture)
-        
-        DOB.inputView = DateOB
-    }
-    
-    @objc func viewTapped(gestureRecognizer: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    @objc func dateChanged(datePicker: UIDatePicker) {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MM/dd/yyyy"
-        DOB.text = dateFormatter.string(from: datePicker.date)
-        view.endEditing(false)
     }
     
 

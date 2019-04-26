@@ -266,6 +266,8 @@ open class RAMAnimatedTabBarController: UITabBarController {
     }
 
     fileprivate func initializeContainers() {
+        
+
         containers.values.forEach { $0.removeFromSuperview() }
         containers = createViewContainers()
 

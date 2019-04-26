@@ -89,7 +89,7 @@ open class RAMRotationAnimation: RAMItemAnimation {
 
     func playRoatationAnimation(_ icon: UIImageView) {
 
-        let rotateAnimation = CABasicAnimation(keyPath: Constants.AnimationKeys.rotation)
+        let rotateAnimation = CABasicAnimation(keyPath: Constants.AnimationKeys.Rotation)
         rotateAnimation.fromValue = 0.0
 
         var toValue = CGFloat.pi * 2

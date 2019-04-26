@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2644A44A7ED0D58B7058FC70 /* Pods_EasyFit_DailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */; };
-		542BCC6A2272265700F5A3A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542BCC692272265700F5A3A9 /* GoogleService-Info.plist */; };
-		542BCC6C227235A600F5A3A9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542BCC6B227235A600F5A3A9 /* ProfileViewController.swift */; };
 		5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1022269DEC500520456 /* SignUpViewController.swift */; };
 		5447A1072269E6B800520456 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1062269E6B800520456 /* PageViewController.swift */; };
 		546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */; };
@@ -19,6 +17,7 @@
 		54F9F013226F85300031E544 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9F012226F85300031E544 /* DetailsViewController.swift */; };
 		9186E9619D95B16C5D2C38D8 /* Pods_EasyFit_DailyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886376FCE8A79698F424B183 /* Pods_EasyFit_DailyTests.framework */; };
 		C8B150D030E82BBC0E58C3FB /* Pods_EasyFit_Daily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */; };
+		D43B19A922725CBF00B7EF28 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B19A822725CBF00B7EF28 /* Entity.swift */; };
 		D469E4A92257A6D9002C49CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469E4A82257A6D9002C49CA /* AppDelegate.swift */; };
 		D469E4AB2257A6D9002C49CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469E4AA2257A6D9002C49CA /* ViewController.swift */; };
 		D469E4AE2257A6D9002C49CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D469E4AC2257A6D9002C49CA /* Main.storyboard */; };
@@ -37,6 +36,7 @@
 		D47BA9A72271454200AE954F /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA99D2271454200AE954F /* RAMRotationAnimation.swift */; };
 		D47BA9A82271454200AE954F /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA99F2271454200AE954F /* RAMBounceAnimation.swift */; };
 		D47BA9AC2271456C00AE954F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47BA9AB2271456B00AE954F /* Info.plist */; };
+		D47BA9AF227254DA00AE954F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BA9AE227254DA00AE954F /* User.swift */; };
 		D4EFE9EC2271109500EC579C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFE9EB2271109500EC579C /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +60,6 @@
 /* Begin PBXFileReference section */
 		076BE6C27867EBA791797CB3 /* Pods-EasyFit Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.release.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.release.xcconfig"; sourceTree = "<group>"; };
 		4B51663199B5AC8EBDE8046A /* Pods-EasyFit DailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.release.xcconfig"; sourceTree = "<group>"; };
-		542BCC692272265700F5A3A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		542BCC6B227235A600F5A3A9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5447A1022269DEC500520456 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5447A1062269E6B800520456 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
@@ -73,6 +71,7 @@
 		6669A0EEC4D1257D334AA6BD /* Pods_EasyFit_Daily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_Daily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886376FCE8A79698F424B183 /* Pods_EasyFit_DailyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFit_DailyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B200645C25E79BD1AEC9902D /* Pods-EasyFit Daily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.debug.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.debug.xcconfig"; sourceTree = "<group>"; };
+		D43B19A822725CBF00B7EF28 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		D469E4A52257A6D9002C49CA /* EasyFit Daily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyFit Daily.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D469E4A82257A6D9002C49CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D469E4AA2257A6D9002C49CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 		D47BA99F2271454200AE954F /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		D47BA9AA2271456B00AE954F /* TabBarLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarLib.h; sourceTree = "<group>"; };
 		D47BA9AB2271456B00AE954F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47BA9AE227254DA00AE954F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D4EFE9EB2271109500EC579C /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E5F060C26814771A043E5540 /* Pods-EasyFit DailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyUITests/Pods-EasyFit DailyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FAC19E14077D76DA16056B8C /* Pods-EasyFit DailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,7 +168,6 @@
 		D469E49C2257A6D9002C49CA = {
 			isa = PBXGroup;
 			children = (
-				542BCC692272265700F5A3A9 /* GoogleService-Info.plist */,
 				D469E4A72257A6D9002C49CA /* EasyFit Daily */,
 				D469E4BF2257A6DA002C49CA /* EasyFit DailyTests */,
 				D469E4CA2257A6DA002C49CA /* EasyFit DailyUITests */,
@@ -192,6 +191,7 @@
 		D469E4A72257A6D9002C49CA /* EasyFit Daily */ = {
 			isa = PBXGroup;
 			children = (
+				D47BA9AD227254B400AE954F /* entities */,
 				D47BA9A92271456B00AE954F /* TabBarLib */,
 				D47BA98E2271454200AE954F /* RAMAnimatedTabBarController */,
 				D469E4A82257A6D9002C49CA /* AppDelegate.swift */,
@@ -206,7 +206,6 @@
 				54F9F010226F82F60031E544 /* HomeViewController.swift */,
 				54F9F012226F85300031E544 /* DetailsViewController.swift */,
 				D4EFE9EB2271109500EC579C /* SignUpController.swift */,
-				542BCC6B227235A600F5A3A9 /* ProfileViewController.swift */,
 			);
 			path = "EasyFit Daily";
 			sourceTree = "<group>";
@@ -318,6 +317,15 @@
 			path = TabBarLib;
 			sourceTree = "<group>";
 		};
+		D47BA9AD227254B400AE954F /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				D47BA9AE227254DA00AE954F /* User.swift */,
+				D43B19A822725CBF00B7EF28 /* Entity.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,7 +338,6 @@
 				D469E4A22257A6D9002C49CA /* Frameworks */,
 				D469E4A32257A6D9002C49CA /* Resources */,
 				9EA9FFE181DB6C0F38257719 /* [CP] Embed Pods Frameworks */,
-				7227A8E6A48746558DE89749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -427,7 +434,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				542BCC6A2272265700F5A3A9 /* GoogleService-Info.plist in Resources */,
 				D469E4B62257A6DA002C49CA /* LaunchScreen.storyboard in Resources */,
 				D469E4B32257A6DA002C49CA /* Assets.xcassets in Resources */,
 				D469E4AE2257A6D9002C49CA /* Main.storyboard in Resources */,
@@ -477,23 +483,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7227A8E6A48746558DE89749 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9EA9FFE181DB6C0F38257719 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,9 +491,24 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Navigation-stack/Navigation_stack.framework",
+				"${BUILT_PRODUCTS_DIR}/PreviewTransition/PreviewTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_stack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PreviewTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -568,7 +572,6 @@
 				D47BA9A42271454200AE954F /* RAMFumeAnimation.swift in Sources */,
 				5447A1072269E6B800520456 /* PageViewController.swift in Sources */,
 				D47BA9A02271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
-				542BCC6C227235A600F5A3A9 /* ProfileViewController.swift in Sources */,
 				D4EFE9EC2271109500EC579C /* SignUpController.swift in Sources */,
 				D47BA9A32271454200AE954F /* RAMItemAnimationProtocol.swift in Sources */,
 				D469E4B12257A6D9002C49CA /* EasyFit_Daily.xcdatamodeld in Sources */,
@@ -577,7 +580,9 @@
 				D47BA9A22271454200AE954F /* RAMBadge.swift in Sources */,
 				54F9F011226F82F60031E544 /* HomeViewController.swift in Sources */,
 				D47BA9A82271454200AE954F /* RAMBounceAnimation.swift in Sources */,
+				D47BA9AF227254DA00AE954F /* User.swift in Sources */,
 				D47BA9A72271454200AE954F /* RAMRotationAnimation.swift in Sources */,
+				D43B19A922725CBF00B7EF28 /* Entity.swift in Sources */,
 				D47BA9A52271454200AE954F /* RAMFrameItemAnimation.swift in Sources */,
 				D47BA9A62271454200AE954F /* RAMTransitionItemAnimations.swift in Sources */,
 			);

@@ -4,13 +4,11 @@
 target 'EasyFit Daily' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod 'Alamofire'
 pod 'RAMAnimatedTabBarController'
 pod 'expanding-collection'
 pod 'Navigation-stack'
 pod 'PreviewTransition'
-pod 'GoogleSignIn'
-pod 'Firebase/Auth'
+pod 'Alamofire', '~> 4.0.0'
   # Pods for EasyFit Daily
 
   target 'EasyFit DailyTests' do

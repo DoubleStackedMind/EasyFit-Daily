@@ -1,45 +1,13 @@
 PODS:
-  - Alamofire (4.8.2)
+  - Alamofire (4.0.1)
   - expanding-collection (3.1.0)
-  - Firebase/Auth (5.20.2):
-    - Firebase/CoreOnly
-    - FirebaseAuth (= 5.4.2)
-  - Firebase/CoreOnly (5.20.2):
-    - FirebaseCore (= 5.4.1)
-  - FirebaseAuth (5.4.2):
-    - FirebaseAuthInterop (~> 1.0)
-    - FirebaseCore (~> 5.2)
-    - GoogleUtilities/Environment (~> 5.2)
-    - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseAuthInterop (1.0.0)
-  - FirebaseCore (5.4.1):
-    - GoogleUtilities/Environment (~> 5.2)
-    - GoogleUtilities/Logger (~> 5.2)
-  - GoogleSignIn (4.4.0):
-    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
-    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
-    - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleToolboxForMac/DebugUtils (2.2.0):
-    - GoogleToolboxForMac/Defines (= 2.2.0)
-  - GoogleToolboxForMac/Defines (2.2.0)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
-    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
-    - GoogleToolboxForMac/Defines (= 2.2.0)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
-  - GoogleUtilities/Environment (5.8.0)
-  - GoogleUtilities/Logger (5.8.0):
-    - GoogleUtilities/Environment
-  - GTMSessionFetcher/Core (1.2.1)
   - Navigation-stack (3.1.0)
   - PreviewTransition (4.1.0)
-  - RAMAnimatedTabBarController (5.0.0)
+  - RAMAnimatedTabBarController (4.0.1)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.0.0)
   - expanding-collection
-  - Firebase/Auth
-  - GoogleSignIn
   - Navigation-stack
   - PreviewTransition
   - RAMAnimatedTabBarController
@@ -48,33 +16,17 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - expanding-collection
-    - Firebase
-    - FirebaseAuth
-    - FirebaseAuthInterop
-    - FirebaseCore
-    - GoogleSignIn
-    - GoogleToolboxForMac
-    - GoogleUtilities
-    - GTMSessionFetcher
     - Navigation-stack
     - PreviewTransition
     - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
-  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
-  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
-  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
-  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
-  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
-  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
-  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
-  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   Navigation-stack: 8fa9f033c2c4fa8aebbbefcd5e204891f68a7bc9
   PreviewTransition: b030422e53d050b0bb05ec05a0629b2aa6c15269
-  RAMAnimatedTabBarController: 6736db7bec2ec74d64059ee9cb40cb9bd281338e
+  RAMAnimatedTabBarController: 677d6f7ec7e88b1089486f4db49b0a5067e8ad1c
 
-PODFILE CHECKSUM: 97573ec7ced23dd21a4851261d9672d848e43443
+PODFILE CHECKSUM: 544fad8b29cdfccdfa5a7d2476a1622432d88d23
 
-COCOAPODS: 1.7.0.beta.1
+COCOAPODS: 1.6.1

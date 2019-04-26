@@ -7,25 +7,17 @@
 //
 
 import UIKit
-import GoogleSignIn
-import Firebase
 
-class ViewController: UIViewController, GIDSignInUIDelegate {
+class ViewController: UIViewController {
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        GIDSignIn.sharedInstance().uiDelegate = self
-        
-        
-        // TODO(developer) Configure the sign-in button look/feel
-        // ... 
         }
-    
-    @IBAction func signInGoogle(_ sender: Any) {
-          GIDSignIn.sharedInstance().signIn()
-    }
+
+
+
 }
 
 @IBDesignable extension UIButton {
