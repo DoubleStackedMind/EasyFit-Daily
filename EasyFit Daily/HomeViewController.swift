@@ -12,7 +12,7 @@ import Navigation_stack
 
 class HomeViewController: PTTableViewController {
     
-    fileprivate let items = [("1", "Gym Workout"), ("2", "Home Workout"), ("3", "Healthy Diet"), ("4", "Southern Coast"), ("5", "Fishing place")] // image names
+    fileprivate let items = [("1", "Gym Workout"), ("2", "Yoga"), ("3", "Healthy Diet"), ("4", "Southern Coast"), ("5", "Fishing place")] // image names
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class HomeViewController: PTTableViewController {
 extension HomeViewController {
     
     public override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return 100
+        return 5
     }
     
     public override func tableView(_: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -51,7 +51,12 @@ extension HomeViewController {
         if case let viewController as DetailsViewController = DVC {
             pushViewController(viewController)
         }
+        let indexPath = tableView.indexPathForSelectedRow//optional, to get from any UIButton for example
+        WorkoutType = items[(indexPath?.row)!].1
     }
+    
+   
+    
 }
 
 extension HomeViewController: UIGestureRecognizerDelegate {

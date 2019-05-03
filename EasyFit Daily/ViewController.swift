@@ -7,18 +7,60 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
+    let global_url="http://172.19.19.249/EasyFitDailyWebService/web/app_dev.php/"
+    @IBOutlet var usernameTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         }
 
-
-
+    @IBAction func SignUpButton(_ sender: Any) {
+         let url = global_url+"user/retrieve"
+        
+        let parameters: Parameters = ["username":usernameTextField.text!,"password":passwordTextField.text!]
+        
+        Alamofire.request(url,method: .post,parameters: parameters,encoding: URLEncoding.default,headers: nil).validate(contentType: ["application/json"]).responseJSON() {
+            response in
+            
+            switch response.result {
+            case .success:
+                  let userArray = (response.result.value  as! NSArray)
+                  for user in userArray {
+                    let userDict = user as! Dictionary<String,Any>
+                  
+                  if(self.usernameTextField.text == userDict["email"] as! String && self.passwordTextField.text == userDict["password"] as! String){
+                    self.performSegue(withIdentifier: "toHome", sender: nil)
+                  }
+                    
+                  else
+                    {
+                        let NameAlertController = UIAlertController(title: "Alert", message: "Username or password is incorrect!", preferredStyle: .alert)
+                        let NameAlertAction = UIAlertAction(title: "OK", style: .default)
+                        NameAlertController.addAction(NameAlertAction)
+                        self.present(NameAlertController, animated: true, completion: nil)
+                    }
+                     }
+                 
+                
+                break
+            case .failure(let error):
+                let NameAlertController = UIAlertController(title: "Alert", message: "Username or password is incorrect!", preferredStyle: .alert)
+                let NameAlertAction = UIAlertAction(title: "OK", style: .default)
+                NameAlertController.addAction(NameAlertAction)
+                self.present(NameAlertController, animated: true, completion: nil)
+              
+                break
+                }
+        }
+    }
 }
+    
 
 @IBDesignable extension UIButton {
     
@@ -89,4 +131,8 @@ class ViewController: UIViewController {
         set {
             self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: newValue!])
         }
-    }}
+    }
+    
+}
+
+

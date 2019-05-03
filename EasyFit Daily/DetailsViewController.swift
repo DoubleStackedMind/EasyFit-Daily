@@ -9,11 +9,17 @@
 import UIKit
 import PreviewTransition
 
+var WorkoutType:String = ""
+
 class DetailsViewController: PTDetailViewController {
 
+    
+    
+    @IBOutlet var GoTo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        GoTo.setTitle(WorkoutType + " >", for: .normal)
         // Do any additional setup after loading the view.
     }
     
@@ -22,6 +28,15 @@ class DetailsViewController: PTDetailViewController {
     }
 
    
+    @IBAction func GoToAction(_ sender: Any) {
+        if(GoTo.titleLabel?.text == "Gym Workout >") {
+            performSegue(withIdentifier: "GoToGym", sender: nil)
+        }
+        if(GoTo.titleLabel?.text == "Yoga >") {
+            performSegue(withIdentifier: "GoToYoga", sender: nil)
+        }
+        
+    }
     /*
     // MARK: - Navigation
 
@@ -31,5 +46,5 @@ class DetailsViewController: PTDetailViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
 }

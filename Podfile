@@ -9,6 +9,7 @@ pod 'expanding-collection'
 pod 'Navigation-stack'
 pod 'PreviewTransition'
 pod 'Alamofire', '~> 4.0.0'
+pod 'GlidingCollection'
   # Pods for EasyFit Daily
 
   target 'EasyFit DailyTests' do
