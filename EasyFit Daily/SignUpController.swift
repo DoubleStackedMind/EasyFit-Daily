@@ -119,7 +119,7 @@ class SignUpController: UIViewController {
                 switch response.result {
                 case .success:
                     print(response)
-                    self.performSegue(withIdentifier: "toMain", sender: nil)
+                    self.performSegue(withIdentifier: "toLogin", sender: nil)
                     break
                 case .failure(let error):
                     print(error)

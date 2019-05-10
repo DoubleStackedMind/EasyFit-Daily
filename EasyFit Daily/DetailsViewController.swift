@@ -8,6 +8,7 @@
 
 import UIKit
 import PreviewTransition
+import CoreMotion
 
 var WorkoutType:String = ""
 
@@ -20,6 +21,9 @@ class DetailsViewController: PTDetailViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         GoTo.setTitle(WorkoutType + " >", for: .normal)
+        let HCV = HomeViewController()
+        HCV.startUpdating()
+        HCV.startCountingSteps()
         // Do any additional setup after loading the view.
     }
     
@@ -35,6 +39,11 @@ class DetailsViewController: PTDetailViewController {
         if(GoTo.titleLabel?.text == "Yoga >") {
             performSegue(withIdentifier: "GoToYoga", sender: nil)
         }
+        if(GoTo.titleLabel?.text == "Calories Burned >") {
+            performSegue(withIdentifier: "GoToCalories", sender: nil)
+        }
+        
+        
         
     }
     /*
@@ -46,5 +55,5 @@ class DetailsViewController: PTDetailViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
+    
 }

@@ -40,6 +40,8 @@
 		<string>Font Awesome 5 Free-Regular-400.otf</string>
 		<string>Font Awesome 5 Brands-Regular-400.otf</string>
 	</array>
+	<key>NSMotionUsageDescription</key>
+	<string>In order to count steps EasyFit needs access to your pedometer</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

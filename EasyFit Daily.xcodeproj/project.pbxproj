@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2644A44A7ED0D58B7058FC70 /* Pods_EasyFit_DailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */; };
+		542C30BC2284FBDF000EA335 /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C30BB2284FBDF000EA335 /* CaloriesViewController.swift */; };
 		5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1022269DEC500520456 /* SignUpViewController.swift */; };
 		5447A1072269E6B800520456 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1062269E6B800520456 /* PageViewController.swift */; };
 		546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		076BE6C27867EBA791797CB3 /* Pods-EasyFit Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.release.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.release.xcconfig"; sourceTree = "<group>"; };
 		4B51663199B5AC8EBDE8046A /* Pods-EasyFit DailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		542C30BB2284FBDF000EA335 /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
 		5447A1022269DEC500520456 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5447A1062269E6B800520456 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				54A6FD8C227BDE6B001E6E96 /* WorkoutTypesViewController.swift */,
 				54A6FDA0227BE409001E6E96 /* New Group */,
 				54A6FDBD227BFED7001E6E96 /* YogaTypesViewController.swift */,
+				542C30BB2284FBDF000EA335 /* CaloriesViewController.swift */,
 			);
 			path = "EasyFit Daily";
 			sourceTree = "<group>";
@@ -690,6 +693,7 @@
 				D43B19A922725CBF00B7EF28 /* Entity.swift in Sources */,
 				D47BA9A52271454200AE954F /* RAMFrameItemAnimation.swift in Sources */,
 				54A6FDBE227BFED7001E6E96 /* YogaTypesViewController.swift in Sources */,
+				542C30BC2284FBDF000EA335 /* CaloriesViewController.swift in Sources */,
 				D47BA9A62271454200AE954F /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

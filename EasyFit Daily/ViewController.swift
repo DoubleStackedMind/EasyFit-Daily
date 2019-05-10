@@ -8,9 +8,12 @@
 
 import UIKit
 import Alamofire
+import CoreMotion
 
 class ViewController: UIViewController {
 
+    
+    
     let global_url="http://172.19.19.249/EasyFitDailyWebService/web/app_dev.php/"
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
@@ -59,6 +62,7 @@ class ViewController: UIViewController {
                 }
         }
     }
+
 }
     
 
