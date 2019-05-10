@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2644A44A7ED0D58B7058FC70 /* Pods_EasyFit_DailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636586740EEBB260AD2013BF /* Pods_EasyFit_DailyUITests.framework */; };
 		542C30BC2284FBDF000EA335 /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C30BB2284FBDF000EA335 /* CaloriesViewController.swift */; };
+		54377BAF22851E3C007467A2 /* ExerciceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54377BAE22851E3C007467A2 /* ExerciceViewController.swift */; };
 		5447A1032269DEC500520456 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1022269DEC500520456 /* SignUpViewController.swift */; };
 		5447A1072269E6B800520456 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5447A1062269E6B800520456 /* PageViewController.swift */; };
 		546E16C32268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */; };
@@ -74,6 +75,7 @@
 		076BE6C27867EBA791797CB3 /* Pods-EasyFit Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit Daily.release.xcconfig"; path = "Target Support Files/Pods-EasyFit Daily/Pods-EasyFit Daily.release.xcconfig"; sourceTree = "<group>"; };
 		4B51663199B5AC8EBDE8046A /* Pods-EasyFit DailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFit DailyTests.release.xcconfig"; path = "Target Support Files/Pods-EasyFit DailyTests/Pods-EasyFit DailyTests.release.xcconfig"; sourceTree = "<group>"; };
 		542C30BB2284FBDF000EA335 /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
+		54377BAE22851E3C007467A2 /* ExerciceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciceViewController.swift; sourceTree = "<group>"; };
 		5447A1022269DEC500520456 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5447A1062269E6B800520456 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		546E16C02268FF0D009C426B /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				54F9F010226F82F60031E544 /* HomeViewController.swift */,
 				54F9F012226F85300031E544 /* DetailsViewController.swift */,
 				D4EFE9EB2271109500EC579C /* SignUpController.swift */,
+				54377BAE22851E3C007467A2 /* ExerciceViewController.swift */,
 				54A6FD8C227BDE6B001E6E96 /* WorkoutTypesViewController.swift */,
 				54A6FDA0227BE409001E6E96 /* New Group */,
 				54A6FDBD227BFED7001E6E96 /* YogaTypesViewController.swift */,
@@ -678,6 +681,7 @@
 				D47BA9A42271454200AE954F /* RAMFumeAnimation.swift in Sources */,
 				5447A1072269E6B800520456 /* PageViewController.swift in Sources */,
 				D47BA9A02271454200AE954F /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				54377BAF22851E3C007467A2 /* ExerciceViewController.swift in Sources */,
 				D4EFE9EC2271109500EC579C /* SignUpController.swift in Sources */,
 				D47BA9A32271454200AE954F /* RAMItemAnimationProtocol.swift in Sources */,
 				54A6FD8D227BDE6B001E6E96 /* WorkoutTypesViewController.swift in Sources */,
@@ -871,12 +875,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8773TTRPJJ;
 				INFOPLIST_FILE = "EasyFit Daily/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sami.amine.easyfit.EasyFit-Daily";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyfit.EasyFit-Daily";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -889,12 +894,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8773TTRPJJ;
 				INFOPLIST_FILE = "EasyFit Daily/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sami.amine.easyfit.EasyFit-Daily";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.easyfit.EasyFit-Daily";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

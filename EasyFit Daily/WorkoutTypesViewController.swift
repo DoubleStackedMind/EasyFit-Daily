@@ -92,6 +92,7 @@ extension WorkoutTypesViewController: UICollectionViewDataSource, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let section = glidingCollection.expandedItemIndex
         let item = indexPath.item
+       performSegue(withIdentifier: "GoToExercice", sender: nil)
         print("Selected item #\(item) in section #\(section)")
     }
     
